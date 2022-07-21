@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/hp.uss?fileID=7433441132597879392&amp;guid=54b68f671a903f54b95629d49b6dcbd6&amp;type=3#hp" />
+    <ui:VisualElement name="Hp_Bar" style="height: auto; width: 15%;">
+        <ui:ProgressBar title=" " low-value="1" high-value="1" name="ProgressBar" class="ProgressBar" style="width: auto; height: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

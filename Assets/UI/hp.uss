@@ -1,0 +1,40 @@
+.ProgressBar .unity-progress-bar__background {
+    background-color: rgb(212, 212, 212);
+    background-image: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(86, 209, 64);
+    background-image: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    white-space: normal;
+    -unity-text-align: upper-left;
+    -unity-background-scale-mode: stretch-to-fill;
+    scale: 1 1;
+    rotate: 0;
+    height: auto;
+}
